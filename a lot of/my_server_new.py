@@ -1,14 +1,6 @@
 import socket
 from concurrent import futures as cf
 
-# TCP_IP = 'localhost'
-# TCP_PORT = 8080
-
-# TCP_IP = socket.gethostname()
-# TCP_PORT = 5000
-
-# def main(host, port):
-
 
 def main():
     host = socket.gethostname()
@@ -43,4 +35,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # main(TCP_IP, TCP_PORT)
