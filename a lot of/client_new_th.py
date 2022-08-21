@@ -1,12 +1,6 @@
 import socket
 
 
-# TCP_IP = 'localhost'
-# TCP_PORT = 8080
-# MESSAGE = "Python Web development"
-
-
-# def client(ip: str, port: int):
 def client():
     host = socket.gethostname()
     port = 5000
